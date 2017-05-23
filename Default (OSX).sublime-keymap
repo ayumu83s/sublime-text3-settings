@@ -1,0 +1,15 @@
+[
+	// コード補完の候補選択をTabとShift+Tabで上下に移動させる
+	{ "keys": ["tab"], "command": "auto_complete",
+		"context": [
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
+		]
+	},
+	{ "keys": ["shift+tab"], "command": "auto_complete_prev",
+		"context": [
+			{ "key": "auto_complete_visible", "operator": "equal", "operand": true }
+		]
+	},
+	// FuzzyFileNav
+	{ "keys": ["super+shift+o"], "command": "fuzzy_start_from_file"}
+]

@@ -1,0 +1,6 @@
+{
+	// tagの範囲を無限に探す設定が重ければ調整
+	//"ignore_threshold": false,
+	//"search_threshold": 50000
+	"ignore_threshold": true
+}
